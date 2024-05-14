@@ -16,7 +16,7 @@ def count_gpt_tokens(messages):
     }
     data = {
         'modelUri': f"gpt://{folder_id}/yandexgpt-lite",
-        "text": messages
+        "messages": messages
     }
     try:
         return len(requests.post(url=url, json=data, headers=headers).json()['tokens'])
