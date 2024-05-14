@@ -9,7 +9,7 @@ ssh -i C:/Users/skvor/mykey student@158.160.129.26
 
 
 
-HOME_DIR = "/home/student"  # путь к папке с проектом
+HOME_DIR = "/home/student/final_project"  # путь к папке с проектом
 LOGS = f'{HOME_DIR}/logs.txt'  # файл для логов
 DB_FILE = f'{HOME_DIR}/messages.db'  # файл для базы данных
 
